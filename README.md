@@ -11,6 +11,15 @@ Claude Code skills for [Sentinel](https://github.com/buildsentinelhq/sentinel) â
 
 ## Install
 
+### Claude Code Plugin (recommended)
+
+```bash
+/plugin marketplace add buildsentinelhq/sentinel-skills
+/plugin install sentinel-skills
+```
+
+### npx skills
+
 Uses [`npx skills`](https://github.com/vercel-labs/skills) â€” the open agent skills tool. No extra packages to install.
 
 ```bash
