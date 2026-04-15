@@ -1,0 +1,23 @@
+{
+  "name": "sentinel-skills",
+  "owner": {
+    "name": "Sentinel HQ",
+    "email": "hello@sentinelhq.dev"
+  },
+  "metadata": {
+    "description": "Claude Code skills for Sentinel — AI agent security on Solana",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "sentinel-skills",
+      "description": "Security scanning and transaction simulation skills for Solana AI agents",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/sentinel",
+        "./skills/sentinel-dev"
+      ]
+    }
+  ]
+}
